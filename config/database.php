@@ -1,5 +1,6 @@
 <?php
 
+
 return [
 
     /*
@@ -12,6 +13,7 @@ return [
     | you may use many connections at once using the Database library.
     |
     */
+ 
 
     'default' => env('DB_CONNECTION', 'mysql'),
 
@@ -41,11 +43,11 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', '127.0.0.1'),
+            'host' => env('DB_HOST', 'us-cdbr-iron-east-01.cleardb.net'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'database' => env('DB_DATABASE', 'heroku_cabb268aea9a573'),
+            'username' => env('DB_USERNAME', 'b461957091d4c5'),
+            'password' => env('DB_PASSWORD', '4e638b90'),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
